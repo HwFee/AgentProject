@@ -229,3 +229,9 @@ Thumbs.db
 # Local Env variables
 .env
 .env.*
+
+# Temporary / test artifacts at root
+/*.pdf
+/*.png
+/*.txt
+/test_docx_feedback.py
