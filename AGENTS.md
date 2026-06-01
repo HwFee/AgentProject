@@ -4,7 +4,7 @@
 
 前后端分离的 AI 报告生成系统：
 
-- `backend/` — Python FastAPI + SQLAlchemy (async) + LangGraph/LangChain + Celery
+- `backend/` — Python FastAPI + SQLAlchemy (async) + Celery
   - 入口：`main.py`
   - 数据库：PostgreSQL (asyncpg)，Celery 用 Redis
   - 模型：`models/`，路由：`routers/`，服务：`services/`

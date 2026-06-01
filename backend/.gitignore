@@ -235,3 +235,8 @@ Thumbs.db
 /*.png
 /*.txt
 /test_docx_feedback.py
+
+# User-generated reports and uploads (never commit user data)
+images/reports/
+uploads/
+

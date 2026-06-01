@@ -16,12 +16,6 @@ from crud.report import ReportCRUD
 
 
 class LangGraphExecutor:
-    def __init__(self, *args, **kwargs):
-        warnings.warn(
-            "LangGraphExecutor is deprecated. Use pipeline.executor.PipelineExecutor instead.",
-            DeprecationWarning,
-            stacklevel=2,
-        )
     AGENT_REGISTRY = {
         "research": ResearchAgent,
         "write": WriteAgent,
