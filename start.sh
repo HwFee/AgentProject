@@ -100,7 +100,7 @@ elif [ -d "venv" ]; then
 fi
 
 # 启动后端
-python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload > "$PROJECT_ROOT/backend_server.log" 2>&1 &
+python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload > "$PROJECT_ROOT/backend_server.log" 2>&1 &
 BACKEND_PID=$!
 echo -e "${GREEN}  已启动 (PID: $BACKEND_PID)${NC}"
 
